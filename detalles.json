@@ -1,0 +1,702 @@
+[
+  {
+    "masaAcumulada": 112.042,
+    "densidad": 0.865414,
+    "temperatura": 19.181,
+    "caudal": 264341.876,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 237.324,
+    "densidad": 0.841158,
+    "temperatura": 16.694,
+    "caudal": 497545.707,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 375.335,
+    "densidad": 0.779264,
+    "temperatura": 17.131,
+    "caudal": 380647.716,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 533.154,
+    "densidad": 0.789035,
+    "temperatura": 20.756,
+    "caudal": 653540.701,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 582.271,
+    "densidad": 0.778087,
+    "temperatura": 20.176,
+    "caudal": 187863.519,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 648.216,
+    "densidad": 0.785041,
+    "temperatura": 19.661,
+    "caudal": 170979.315,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 795.472,
+    "densidad": 0.708046,
+    "temperatura": 19.576,
+    "caudal": 379593.047,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 868.802,
+    "densidad": 0.721464,
+    "temperatura": 20.563,
+    "caudal": 204932.929,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 987.475,
+    "densidad": 0.83255,
+    "temperatura": 21.026,
+    "caudal": 282700.13,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1179.404,
+    "densidad": 0.771867,
+    "temperatura": 21.052,
+    "caudal": 788217.911,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1339.44,
+    "densidad": 0.779399,
+    "temperatura": 19.788,
+    "caudal": 385943.644,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1464.554,
+    "densidad": 0.780355,
+    "temperatura": 19.472,
+    "caudal": 280769.217,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1583.924,
+    "densidad": 0.887818,
+    "temperatura": 17.81,
+    "caudal": -171.831,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1721.444,
+    "densidad": 0.883832,
+    "temperatura": 18.986,
+    "caudal": 334990.026,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1839.464,
+    "densidad": 0.843003,
+    "temperatura": 18.587,
+    "caudal": 414432.367,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1959.353,
+    "densidad": 0.879989,
+    "temperatura": 17.286,
+    "caudal": 550309.296,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2119.387,
+    "densidad": 0.837243,
+    "temperatura": 18.958,
+    "caudal": 437757.554,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2182.661,
+    "densidad": 0.829246,
+    "temperatura": 22.518,
+    "caudal": 266455.809,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2340.343,
+    "densidad": 0.804432,
+    "temperatura": 19.706,
+    "caudal": 350031.871,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2506.596,
+    "densidad": 0.784575,
+    "temperatura": 21.154,
+    "caudal": -7.656,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2548.055,
+    "densidad": 0.795911,
+    "temperatura": 21.514,
+    "caudal": 143922.721,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2717.983,
+    "densidad": 0.747133,
+    "temperatura": 20.933,
+    "caudal": 423753.955,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2762.803,
+    "densidad": 0.767554,
+    "temperatura": 17.869,
+    "caudal": 207892.317,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2900.089,
+    "densidad": 0.726081,
+    "temperatura": 20.906,
+    "caudal": 466286.082,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3097.489,
+    "densidad": 0.800984,
+    "temperatura": 19.836,
+    "caudal": 662458.642,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3244.852,
+    "densidad": 0.834494,
+    "temperatura": 22.001,
+    "caudal": 500206.694,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3395.052,
+    "densidad": 0.888081,
+    "temperatura": 21.134,
+    "caudal": 406933.85,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3547.775,
+    "densidad": 0.899996,
+    "temperatura": 19.644,
+    "caudal": 348236.597,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3691.246,
+    "densidad": 0.7111,
+    "temperatura": 19.633,
+    "caudal": 431449.127,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3857.934,
+    "densidad": -0.481135,
+    "temperatura": 18.411,
+    "caudal": -150.171,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3960.514,
+    "densidad": 0.895476,
+    "temperatura": 20.6,
+    "caudal": 336369.106,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 4027.531,
+    "densidad": 0.836112,
+    "temperatura": 19.767,
+    "caudal": 147344.344,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 4096.547,
+    "densidad": 0.74485,
+    "temperatura": 20.529,
+    "caudal": -180.511,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 4258.173,
+    "densidad": 0.815241,
+    "temperatura": 21.281,
+    "caudal": 508786.147,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 4344.194,
+    "densidad": 0.724455,
+    "temperatura": 23.546,
+    "caudal": 265423.845,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 4417.549,
+    "densidad": 0.707405,
+    "temperatura": 20.878,
+    "caudal": 284250.96,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 4617.155,
+    "densidad": 0.79534,
+    "temperatura": 16.646,
+    "caudal": 680232.903,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 4746.84,
+    "densidad": 0.702942,
+    "temperatura": 18.38,
+    "caudal": 437606.681,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 4798.375,
+    "densidad": 0.711882,
+    "temperatura": 18.946,
+    "caudal": 220352.388,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 4914.048,
+    "densidad": 0.720064,
+    "temperatura": 21.151,
+    "caudal": 517835.579,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 5040.547,
+    "densidad": 0.86701,
+    "temperatura": 19.669,
+    "caudal": 389021.896,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 5108.941,
+    "densidad": 0.862451,
+    "temperatura": 21.585,
+    "caudal": 242827.65,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 5245.979,
+    "densidad": 0.808016,
+    "temperatura": 19.802,
+    "caudal": 510060.571,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 5408.771,
+    "densidad": 0.871812,
+    "temperatura": 17.981,
+    "caudal": 478782.653,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 5512.47,
+    "densidad": 0.762053,
+    "temperatura": 21.163,
+    "caudal": 271142.967,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 5602.603,
+    "densidad": 0.810859,
+    "temperatura": 20.661,
+    "caudal": 374986.42,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 5700.155,
+    "densidad": 0.813666,
+    "temperatura": 20.235,
+    "caudal": 236674.841,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 5826.305,
+    "densidad": 0.797289,
+    "temperatura": 15.812,
+    "caudal": 330487.864,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 5875.998,
+    "densidad": 0.717099,
+    "temperatura": 21.402,
+    "caudal": 241749.957,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 6046.014,
+    "densidad": 0.875851,
+    "temperatura": 21.396,
+    "caudal": 660086.319,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 6148.932,
+    "densidad": 1.065642,
+    "temperatura": 20.562,
+    "caudal": 271282.133,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 6262.707,
+    "densidad": 0.712799,
+    "temperatura": 19.998,
+    "caudal": 390019.84,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 6402.459,
+    "densidad": 0.714008,
+    "temperatura": 20.899,
+    "caudal": 549971.341,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 6548.793,
+    "densidad": 0.88878,
+    "temperatura": 19.064,
+    "caudal": -87.119,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 6563.926,
+    "densidad": 0.87058,
+    "temperatura": 22.003,
+    "caudal": 51913.122,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 6682.324,
+    "densidad": 0.766544,
+    "temperatura": 18.182,
+    "caudal": 570680.012,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 6868.436,
+    "densidad": 0.759678,
+    "temperatura": 20.867,
+    "caudal": 552430.879,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 6998.843,
+    "densidad": 0.822387,
+    "temperatura": 20.643,
+    "caudal": 529407.035,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 7198.398,
+    "densidad": 1.449086,
+    "temperatura": 21.582,
+    "caudal": 674189.154,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 7363.362,
+    "densidad": 0.818593,
+    "temperatura": 20.146,
+    "caudal": 547252.225,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 7487.326,
+    "densidad": 0.806632,
+    "temperatura": 20.098,
+    "caudal": 341134.485,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 7613.18,
+    "densidad": 0.816113,
+    "temperatura": 15.737,
+    "caudal": 348414.649,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 7753.764,
+    "densidad": 0.783229,
+    "temperatura": 18.317,
+    "caudal": 387949.368,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 7851.094,
+    "densidad": 0.840961,
+    "temperatura": 16.781,
+    "caudal": 463933.59,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 7955.853,
+    "densidad": 0.785736,
+    "temperatura": 21.142,
+    "caudal": 364298.185,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 8081.749,
+    "densidad": 0.790816,
+    "temperatura": 20.922,
+    "caudal": 538191.354,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 8204.343,
+    "densidad": 0.878749,
+    "temperatura": 18.002,
+    "caudal": 475837.018,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 8349.763,
+    "densidad": 0.833688,
+    "temperatura": 20.401,
+    "caudal": 701007.029,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 8484.514,
+    "densidad": 0.758691,
+    "temperatura": 22.564,
+    "caudal": 475088.715,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 8575.279,
+    "densidad": 0.732397,
+    "temperatura": 17.76,
+    "caudal": 242748.299,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 8717.181,
+    "densidad": 0.797303,
+    "temperatura": 19.449,
+    "caudal": 533331.025,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 8835.498,
+    "densidad": 0.840278,
+    "temperatura": 20.474,
+    "caudal": 418654.329,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 8948.183,
+    "densidad": 0.718667,
+    "temperatura": 19.342,
+    "caudal": 448282.248,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": -31.822,
+    "densidad": 0.877304,
+    "temperatura": 19.718,
+    "caudal": 466650.57,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 73.948,
+    "densidad": 0.857957,
+    "temperatura": 19.978,
+    "caudal": 517879.332,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 219.947,
+    "densidad": 0.890749,
+    "temperatura": 52.795,
+    "caudal": -137.143,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 358.304,
+    "densidad": 0.729566,
+    "temperatura": 53.022,
+    "caudal": 396807.156,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 477.963,
+    "densidad": 0.805089,
+    "temperatura": 17.605,
+    "caudal": 276418.951,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 605.479,
+    "densidad": 0.775564,
+    "temperatura": 20.188,
+    "caudal": 572294.329,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 739.416,
+    "densidad": 0.751044,
+    "temperatura": 19.988,
+    "caudal": 406930.031,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 910.33,
+    "densidad": 0.779757,
+    "temperatura": 22.973,
+    "caudal": 463686.962,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1096.276,
+    "densidad": 0.824067,
+    "temperatura": 19.246,
+    "caudal": 715636.182,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1253.001,
+    "densidad": 0.890283,
+    "temperatura": 19.977,
+    "caudal": 579676.513,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1392.788,
+    "densidad": 0.84886,
+    "temperatura": 17.419,
+    "caudal": 400448.723,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1552.902,
+    "densidad": 0.864875,
+    "temperatura": 18.174,
+    "caudal": 656852.742,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1724.372,
+    "densidad": 1.194294,
+    "temperatura": 21.174,
+    "caudal": 696116.343,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1879.949,
+    "densidad": 0.813978,
+    "temperatura": 19.009,
+    "caudal": -126.308,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 1994.647,
+    "densidad": 0.800514,
+    "temperatura": 20.637,
+    "caudal": 255127.171,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2107.647,
+    "densidad": 0.868455,
+    "temperatura": 18.725,
+    "caudal": 346564.27,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2194.577,
+    "densidad": 0.882513,
+    "temperatura": 18.893,
+    "caudal": 237162.385,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2301.772,
+    "densidad": 0.707152,
+    "temperatura": 18.192,
+    "caudal": 524133.286,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2421.427,
+    "densidad": 0.838162,
+    "temperatura": 18.296,
+    "caudal": 494789.136,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2567.784,
+    "densidad": 0.717754,
+    "temperatura": 23.336,
+    "caudal": 388631.946,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2731.612,
+    "densidad": 0.899863,
+    "temperatura": 21.441,
+    "caudal": 635494.867,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2849.321,
+    "densidad": 0.709592,
+    "temperatura": 18.774,
+    "caudal": 352046.407,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 2942.882,
+    "densidad": 0.700897,
+    "temperatura": 18.337,
+    "caudal": 297102.742,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3113.832,
+    "densidad": 0.761247,
+    "temperatura": 20.469,
+    "caudal": 821369.672,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3135.811,
+    "densidad": 0.824276,
+    "temperatura": 18.989,
+    "caudal": 90514.054,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3261.002,
+    "densidad": 0.868152,
+    "temperatura": 19.798,
+    "caudal": 509974.582,
+    "orden_id": 4
+  },
+  {
+    "masaAcumulada": 3405.868,
+    "densidad": 0.857581,
+    "temperatura": 50.734,
+    "caudal": 475008.001,
+    "orden_id": 4
+  }
+]
