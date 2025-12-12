@@ -33,7 +33,7 @@ from typing import List
 # Valores por defecto (editar manualmente aquí)
 # --------------------
 # ID de la orden que recibirán todos los detalles
-DEFAULT_ORDER_ID = 4
+DEFAULT_ORDER_ID = 7
 # Cantidad de iteraciones (detalles) a generar
 DEFAULT_ITERATIONS = 100
 # Masa acumulada objetivo en la última iteración (kg)
@@ -94,11 +94,12 @@ def build_details(args):
 	incs = generate_increments(args.iterations, args.final_mass, args.start_mass, rng)
 
 	records = []
-	masa = args.start_mass
+	# masa verdadera que acumula los incrementos y garantiza llegar a final_mass
+	true_masa = args.start_mass
 
 	for i, inc in enumerate(incs):
-		prev_masa = masa
-		masa = prev_masa + inc
+		prev_true = true_masa
+		true_masa = prev_true + inc
 
 		# densidad: por defecto en rango [0.7,0.9]
 		dens = rng.uniform(0.70, 0.90)
@@ -125,17 +126,25 @@ def build_details(args):
 		if rng.random() < 0.05:
 			temp = args.temp_threshold + rng.uniform(0.1, 8.0)
 
-		# masa inválida / decreciente ocasional
+		# masa inválida / decreciente ocasional (afecta sólo al valor reportado)
 		if rng.random() < args.prob_bad_mass:
-			# hacer masa menor o <=0
 			if rng.random() < 0.5:
-				masa = prev_masa - rng.uniform(1.0, max(1.0, prev_masa * 0.2))
+				# reporte una masa menor que la anterior (decremento)
+				reported_masa = prev_true - rng.uniform(1.0, max(1.0, prev_true * 0.2))
 			else:
-				masa = rng.uniform(-50.0, 0.0)
+				# reporte una masa negativa o cero
+				reported_masa = rng.uniform(-50.0, 0.0)
+		else:
+			# reporte normal: la masa verdadera acumulada
+			reported_masa = true_masa
+
+		# garantizar que la última iteración reporte exactamente final_mass
+		if i == len(incs) - 1:
+			reported_masa = args.final_mass
 
 		# asegurar redondeo y tipos (solo campo plano 'orden_id')
 		record = {
-			"masaAcumulada": round(masa, 3),
+			"masaAcumulada": round(reported_masa, 3),
 			"densidad": round(dens, 6),
 			"temperatura": round(temp, 3),
 			"caudal": round(caudal, 3),
