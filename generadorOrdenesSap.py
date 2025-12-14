@@ -65,7 +65,8 @@ def build_default_payload():
 		"producto": {
 			"nombre": "Butano",
 			"codigo_producto": generate_codigo('PROD', 6),
-			"descripcion": "Combustible para calefaccion"
+			"descripcion": "Combustible para calefaccion",
+			"umbralTemperatura": 35.8
 		}
 	}
 
