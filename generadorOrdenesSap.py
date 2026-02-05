@@ -44,7 +44,7 @@ def build_default_payload():
 	return {
 		"order_code": generate_order_code(),
 		"preset": 2500.0,
-		"fechaPrevistaCarga": "2025-11-16T14:00:00-0300",
+		"fechaPrevistaCarga": "2026-02-12T14:00:00-0300",
 		"cliente": {
 			"razonSocial": "Shell",
 			"codigo_cliente": generate_codigo('CLI', 5),
@@ -54,7 +54,7 @@ def build_default_payload():
 			"patente": generate_patente(),
 			"codigo_camion": generate_codigo('TRK', 5),
 			"descripcion": "Camión cisterna aluminio",
-			"cisternado": [10000, 2500]
+			"cisternado": [1000, 1500]
 		},
 		"chofer": {
 			"documento": "30151231",
@@ -63,7 +63,7 @@ def build_default_payload():
 			"apellido": "Pérez"
 		},
 		"producto": {
-			"nombre": "Butano",
+			"nombre": "Prueba Producto",
 			"codigo_producto": generate_codigo('PROD', 6),
 			"descripcion": "Combustible para calefaccion",
 			"umbralTemperatura": 35.8

@@ -33,11 +33,11 @@ from typing import List
 # Valores por defecto (editar manualmente aquí)
 # --------------------
 # ID de la orden que recibirán todos los detalles
-DEFAULT_ORDER_ID = 7
+DEFAULT_ORDER_ID = 19
 # Cantidad de iteraciones (detalles) a generar
 DEFAULT_ITERATIONS = 100
 # Masa acumulada objetivo en la última iteración (kg)
-DEFAULT_FINAL_MASS = 12500.0
+DEFAULT_FINAL_MASS = 2500
 
 #-------------------------------------------------------------------------------------------------------------
 # MODIFICAR PROBABILIDADES POR DEFECTO AQUÍ SI SE DESEA (0.02 es 2%)
@@ -47,12 +47,13 @@ def parse_args():
 	p.add_argument('--order_id', type=int, default=DEFAULT_ORDER_ID, help='ID de la orden (entero)')
 	p.add_argument('--final_mass', type=float, default=DEFAULT_FINAL_MASS, help='Masa acumulada objetivo en la última iteración (kg)')
 	p.add_argument('--start_mass', type=float, default=0.0, help='Masa inicial (kg)')
-	p.add_argument('--temp_threshold', type=float, default=50.0, help='Umbral de temperatura para alarma (°C)')
+	p.add_argument('--temp_threshold', type=float, default=30.0, help='Umbral de temperatura para alarma (°C)')
 	p.add_argument('--output', '-o', default='detalles.json', help='Archivo de salida (JSON array)')
 	p.add_argument('--format', choices=['json','ndjson'], default='json', help='Formato de salida: json (array) o ndjson (one-line per object)')
 	p.add_argument('--prob_bad_caudal', type=float, default=0.03, help='Probabilidad por iteración de generar caudal <= 0')
 	p.add_argument('--prob_bad_mass', type=float, default=0.02, help='Probabilidad por iteración de generar masa inválida (<=0 o decreciente)')
 	p.add_argument('--prob_bad_density', type=float, default=0.02, help='Probabilidad por iteración de densidad fuera de rango [0,1]')
+	p.add_argument('--prob_high_temp', type=float, default=0.05, help='Probabilidad por iteración de superar el umbral de temperatura')
 	p.add_argument('--seed', type=int, default=None, help='Semilla aleatoria (opcional)')
 	return p.parse_args()
 #-------------------------------------------------------------------------------------------------------------
@@ -123,7 +124,7 @@ def build_details(args):
 		temp = rng.gauss(20.0, 1.8)
 		# ocasionalmente superar umbral (simular alarma realista)
 		# vamos a dar una probabilidad pequeña de superar umbral
-		if rng.random() < 0.05:
+		if rng.random() < args.prob_high_temp:
 			temp = args.temp_threshold + rng.uniform(0.1, 8.0)
 
 		# masa inválida / decreciente ocasional (afecta sólo al valor reportado)

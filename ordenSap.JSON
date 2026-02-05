@@ -1,30 +1,30 @@
 {
-    "order_code": "SAP-2025-627646",
+    "order_code": "SAP-2026-405818",
     "preset": 2500.0,
-    "fechaPrevistaCarga": "2025-11-16T14:00:00-0300",
+    "fechaPrevistaCarga": "2026-02-12T14:00:00-0300",
     "cliente": {
         "razonSocial": "Shell",
-        "codigo_cliente": "CLI-73214",
+        "codigo_cliente": "CLI-58177",
         "contacto": "+54 11 5555-1112"
     },
     "camion": {
-        "patente": "NX20483",
-        "codigo_camion": "TRK-69983",
+        "patente": "CT59952",
+        "codigo_camion": "TRK-42765",
         "descripcion": "Camión cisterna aluminio",
         "cisternado": [
-            10000,
-            2500
+            1000,
+            1500
         ]
     },
     "chofer": {
         "documento": "30151231",
-        "codigo_chofer": "DRV-098636",
+        "codigo_chofer": "DRV-593909",
         "nombre": "Juan",
         "apellido": "Pérez"
     },
     "producto": {
-        "nombre": "Butano",
-        "codigo_producto": "PROD-279718",
+        "nombre": "Prueba Producto",
+        "codigo_producto": "PROD-255145",
         "descripcion": "Combustible para calefaccion",
         "umbralTemperatura": 35.8
     }
