@@ -43,7 +43,7 @@ def generate_patente():
 def build_default_payload():
 	return {
 		"order_code": generate_order_code(),
-		"preset": 2500.0,
+		"preset": 3500.0,
 		"fechaPrevistaCarga": "2026-02-12T14:00:00-0300",
 		"cliente": {
 			"razonSocial": "Shell",
