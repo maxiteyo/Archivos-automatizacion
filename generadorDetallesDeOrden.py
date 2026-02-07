@@ -33,11 +33,11 @@ from typing import List
 # Valores por defecto (editar manualmente aquí)
 # --------------------
 # ID de la orden que recibirán todos los detalles
-DEFAULT_ORDER_ID = 25
+DEFAULT_ORDER_ID = 30
 # Cantidad de iteraciones (detalles) a generar
 DEFAULT_ITERATIONS = 100
 # Masa acumulada objetivo en la última iteración (kg)
-DEFAULT_FINAL_MASS = 2500
+DEFAULT_FINAL_MASS = 3500
 
 #-------------------------------------------------------------------------------------------------------------
 # MODIFICAR PROBABILIDADES POR DEFECTO AQUÍ SI SE DESEA (0.02 es 2%)

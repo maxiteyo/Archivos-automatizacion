@@ -1,15 +1,15 @@
 {
-    "order_code": "SAP-2026-230396",
+    "order_code": "SAP-2026-872586",
     "preset": 3500.0,
     "fechaPrevistaCarga": "2026-02-12T14:00:00-0300",
     "cliente": {
         "razonSocial": "Shell",
-        "codigo_cliente": "CLI-37229",
+        "codigo_cliente": "CLI-40592",
         "contacto": "+54 11 5555-1112"
     },
     "camion": {
-        "patente": "HS66004",
-        "codigo_camion": "TRK-30610",
+        "patente": "CG19799",
+        "codigo_camion": "TRK-67297",
         "descripcion": "Camión cisterna aluminio",
         "cisternado": [
             1000,
@@ -18,13 +18,13 @@
     },
     "chofer": {
         "documento": "30151231",
-        "codigo_chofer": "DRV-978161",
+        "codigo_chofer": "DRV-129718",
         "nombre": "Juan",
         "apellido": "Pérez"
     },
     "producto": {
         "nombre": "Prueba Producto",
-        "codigo_producto": "PROD-970661",
+        "codigo_producto": "PROD-578753",
         "descripcion": "Combustible para calefaccion",
         "umbralTemperatura": 35.8
     }
