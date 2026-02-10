@@ -33,7 +33,7 @@ from typing import List
 # Valores por defecto (editar manualmente acá)
 # --------------------
 # ID de la orden que recibirán todos los detalles
-DEFAULT_ORDER_ID = 32
+DEFAULT_ORDER_ID = 6
 # Cantidad de iteraciones (detalles) a generar
 DEFAULT_ITERATIONS = 100
 # Masa acumulada objetivo en la última iteración (kg)
@@ -53,7 +53,7 @@ def parse_args():
 	p.add_argument('--prob_bad_caudal', type=float, default=0.03, help='Probabilidad por iteración de generar caudal <= 0')
 	p.add_argument('--prob_bad_mass', type=float, default=0.02, help='Probabilidad por iteración de generar masa inválida (<=0 o decreciente)')
 	p.add_argument('--prob_bad_density', type=float, default=0.02, help='Probabilidad por iteración de densidad fuera de rango [0,1]')
-	p.add_argument('--prob_high_temp', type=float, default=0.05, help='Probabilidad por iteración de superar el umbral de temperatura')
+	p.add_argument('--prob_high_temp', type=float, default=0.08, help='Probabilidad por iteración de superar el umbral de temperatura')
 	p.add_argument('--seed', type=int, default=None, help='Semilla aleatoria (opcional)')
 	return p.parse_args()
 #-------------------------------------------------------------------------------------------------------------
